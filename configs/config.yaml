@@ -1,0 +1,28 @@
+defaults:
+  - base_config
+  - _self_
+
+db:
+  host: rc1b-o3ezvcgz5072sgar.mdb.yandexcloud.net
+  port: 6432
+  database: db
+  user: hse
+  password: hsepassword
+
+sources:
+  passport_blacklist:
+    file_prefix: passport_blacklist
+  terminals:
+    file_prefix: terminals
+  transactions:
+    file_prefix: transactions
+  accounts:
+    db_schema: info
+    db_table_name: accounts
+  cards:
+    db_schema: info
+    db_table_name: cards
+  clients:
+    db_schema: info
+    db_table_name: clients
+
