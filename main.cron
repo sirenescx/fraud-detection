@@ -1,0 +1,1 @@
+0 1 * * * /usr/bin/env python /Users/mmanakhova/Developer/fraud-detection/main.py

@@ -2,8 +2,13 @@ from pathlib import Path
 
 import pandas as pd
 
-from py_scripts.utils import read_data, get_filepaths_by_prefix, extract_postgres_datetime_from_filename, \
-    get_sql_script, move_files_to_backup
+from py_scripts.utils import (
+    read_data,
+    get_filepaths_by_prefix,
+    extract_postgres_datetime_from_filename,
+    get_sql_script,
+    move_files_to_backup
+)
 
 
 def upload_terminals_to_db(
