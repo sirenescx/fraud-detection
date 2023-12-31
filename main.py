@@ -68,6 +68,7 @@ def main(config: Config) -> None:
     detect_frauds(
         passport_fraud_sql_script_path=sql_scripts_directory / 'passport_fraud.sql',
         account_fraud_sql_script_path=sql_scripts_directory / 'account_fraud.sql',
+        terminal_fraud_sql_script_path=sql_scripts_directory / 'terminal_fraud.sql',
         cursor=cursor
     )
 
